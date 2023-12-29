@@ -1,0 +1,119 @@
+body {
+    font-family: Source Sans Pro, sans-serif;
+    background: #f3f3f3 url(https://www.ic2s2.org/assets/css/images/overlay.png);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+.presentation-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.presentation-list li {
+    margin-bottom: 10px;
+}
+
+.back-link {
+    text-align: center;
+}
+.back-link a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #7084AB;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.back-link a:hover {
+    background-color: #0056b3;
+}
+.search-result {
+    margin-bottom: 50px;
+}
+
+.session-details {
+    margin-top: 15px;
+}
+
+
+
+.session-time {
+    color: gray;
+}
+
+
+
+.title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.abstract-link{
+    font-weight: bold;
+}
+
+.authors {
+    margin-top: 5px;
+    font-style: italic;
+    color: gray;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .back-link {
+        margin-top: 15px;
+    }
+
+    .presentation-time {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 14px;
+    }
+
+    .authors {
+        font-size: 12px;
+    }
+    .session-details {
+     font-size: 12px;
+}
+    .presentation-time {
+       font-size: 12px;
+    }
+
+
+    .abstract-link{
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+}
